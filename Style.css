@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bgall{
+    background-color: #030027;
+}
+
+.box{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.nbar{
+    height: 100px;
+    width: 100%;
+    padding: 10px 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    position: fixed;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.404), rgba(39, 39, 39, 0.405));
+    backdrop-filter: blur(10px);
+    background-color: #030027;
+}
+
+.right{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+
+.nbar a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profile{
+    height: 100vh;
+    width: 100%;
+    background-color: #030027;
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+
+#profile .profile h1{
+    font-size: 80px;
+}
+
+#profile .profile p{
+    font-size: 40px;
+}
+
+
+
+.btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: white;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #030027;
+    color: white;
+    border-color: white;
+}
+
+.sm{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.logo{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 40px;
+    box-shadow: 0 0 10px white;
+    font-size: 20px;
+    color: black;
+    transition: .5s;
+    margin: 0 10px;
+}
+
+.logo:hover{
+    cursor: pointer;
+    background-color: #030027;
+    color: white;
+    border-color: white;
+}
+
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color: #030027;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+#about .about h2{
+    font-size: 40px;
+}
+
+#about .about p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.skill{
+    height: 100vh;
+    width: 100%;
+    background-color:#030027;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+#skill .skill h2{
+    font-size: 40px;
+}
+
+#skill .skill p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.pjimg{
+    width: 100%;
+    margin: 40px 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.progress-container {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 25px;
+  margin-bottom: 15px;
+}
+
+.progress-bar {
+  height: 100%;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.bar1 {
+  background-color: grey;
+}
+
+.bar2 {
+  background-color: rgb(95, 94, 94);
+}
+
+.bar3 {
+  background-color: rgb(55, 54, 54);
+}
+
+.project{
+    height: 100vh;
+    width: 100%;
+    background-color: #030027;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+#project .project h2{
+    font-size: 40px;
+}
+
+#project .project p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.imgLoginpage img{
+    margin: 40px 20px 0 0;
+    width: 100%;
+    height: auto;
+    border: solid 2px black;
+}
+
+.imgLoginpage img:hover{
+    cursor: pointer;
+    border: solid 2px white;
+    box-shadow: 0 0 10px white;
+}
+
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-color: #030027;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#contact .contact h2{
+    font-size: 40px;
+}
+
+#contact .contact p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    text-align: start;
+    gap: 1.2rem;
+}
+.center-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+form input{
+    height: 40px;
+    padding: 5px;
+}
+
+form textarea{
+    height: 150px;
+    padding: 5px;
+}
